@@ -1,0 +1,268 @@
+/*zerando margens*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Div container da primeira navBar*/
+#nav1{
+    width: 100%;
+    height: 100px;
+    background: #143c4c;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+/*Div da barra de pesquisa*/
+#divnav{
+    display: flex;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+/*input da barra de pesquisa*/
+#busca{
+    width: 400px;
+    height: 50px;
+    margin-left: 60px;
+    margin-right: 0;
+    background: #fff;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    border: none;
+    text-indent: 20px;
+    font-size: 15px;
+    color: #505050;
+    
+}
+/*Imagem dentro no botão (Lupa)*/
+#divnav img{
+    width: 50px;
+    height:50px;
+    margin: 0%;
+    
+}
+/*Botão/Lupa*/
+#btnlupa{
+    width: 60px;
+    height:50px;
+    border-radius: 20px 0px 0px 20px;
+    background: #fff;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    margin: 0;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+    
+
+}
+/*Minha conta*/
+#divnav2{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
+
+#divnav2 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*carousel*/
+#carroussel{
+    border: 1px #000 solid;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: no-repeat;
+}
+
+/*Botão carroussel*/
+.btncarr{
+    width: 30px;
+    cursor: pointer;
+    height: 30%;
+    background: rgba(255, 255, 255, 0.163);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+/*Barra de carregamento*/
+#barra{
+    width: 100%;
+    height: 5px;
+    margin-top: 25%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+/*carregamento branco*/
+#barrinha{
+    width: 0%;
+    height: 100%;
+    background-color: #fff ;
+
+}
+
+/*Tema*/
+
+.tema{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #505050;
+    margin-top: 50px;
+}
+
+/*Cards container*/
+
+#cards{
+    
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*Cards div*/
+.card{
+    height: 400px;
+    width: 230px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    transition:box-shadow 0.5s ;
+    
+
+}
+/*Imagem dos Cards div*/
+.card img{
+    margin-bottom: 20px;
+}
+
+.cardbutton{
+    background-color: #143c4c;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow:0px 0px 10px 10px #D3D3D3;
+}
+
+/*Nav de papel bar meio*/
+#nav3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: url(./imgs/papel.webp);
+    position: sticky;
+    top: 0px;
+}
+
+#nav3 a{
+    color: #000;
+    text-decoration: none;
+}
+
+/*container tema 2*/
+
+#cards2{
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*Patrocinio*/
+
+#patrocinio{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom, #143c4c 97%,#fff);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+#imgpatro{
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+/*rodape*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/*div dentro do rodapé*/
+.divfooter{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.divfooter a{
+    text-decoration: none;
+    color: #000;
+}
+
+#divpatrocinio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+iframe{
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ancoranav{
+    text-decoration: none;
+}
+
+
+

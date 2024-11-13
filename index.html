@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+
+    <link rel="stylesheet" href="./assets/styles.css">
+
+    <style>
+        #dd{
+            background: black;
+            display: flex;
+            
+        }
+
+        #carroussel{
+            background-position: center;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div id="nav1">
+        <img src="./assets/imgs/DunderMifflinLogo.jpg" alt="logo dunder miffin">
+        <div id="divnav">
+            <input id="busca" type="text" name="Buscar" value="Qual a sua necessidade de papel?">
+            <button id="btnlupa"><img  src="./assets/imgs/lupa.ico" alt="lupa de pesquisa"></button>
+        </div>
+        <div id="divnav2">
+            <div>
+                <a href=""><h2>Minha Conta</h2></a>
+                <div>
+                    <a href="">Logar/</a>
+                    <a href="">Cadastrar</a>
+                </div>
+            </div>
+            <div>
+                <a href=""><h2>Carrinho</h2></a>
+                <div>
+                    <a href="">Itens</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dd">
+    <div id="carroussel">
+        
+        <button class="btncarr" onclick="troca(-1)" id="btn1"> < </button>
+        <div id="barra">
+            <div id="barrinha"></div>
+        </div>
+        <button class="btncarr" onclick="troca(1)" id="btn2"> > </button>
+    
+    </div>
+</div>
+
+    <!--Cards tema 1-->
+
+    <div class="tema" >
+        <h2>Aniversário da kelly </h2>
+    </div>
+    <section id="cards">
+        <div class="card">
+            <img src="./assets/imgs/starkely.jpg" alt="caneca star Kelly">
+            <p>Caneca Star Kelly </p>
+            <h1>R$ 35,00</h1>
+            <button class="cardbutton" type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/startangela.jpg" alt="caneca star Angela">
+            <p>Caneca Star Angela </p>
+            <h1>R$ 35,00</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/startdim.jpg" alt="caneca star Dim">
+            <p>Caneca Star Mariana</p>
+            <h1>R$ 35,00</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/startpam.jpg" alt="Caneca star Pam">
+            <p>Caneca Star Pam Beesly</p>
+            <h1>R$ 35,00</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        
+    </section>
+
+    <nav id="nav3">
+        <a href=""><h2>Promoção</h2></a>
+        <a href=""><h2>Canecas</h2></a>
+        <a href=""><h2>Papeis</h2></a>
+        <a href=""><h2>Fancos</h2></a>
+        <a href=""><h2>Novidades</h2></a>
+        
+    </nav>
+
+    <!--Cards tema 2-->
+
+    <div class="tema" >
+        <h2>O melhor chefe do mundo</h2>
+    </div>
+
+    <section id="cards2">
+        <div class="card">
+            <img src="./assets/imgs/mike.jpg" alt="Boneco fanko Mike">
+            <p>Fanko Michel Scott</p>
+            <h1>R$ 89,90</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/almofadamike.jpg" alt="Almofada Mike">
+            <p>Almofada Michel Scott</p>
+            <h1>R$ 59,00</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/fankomike.jpg" alt="Boneco Fanko Mike">
+            <p>Prisioneiro Mike Fanko</p>
+            <h1>R$ 89,90</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/mikeencontro.jpg" alt="Camiseta Mike do encontro">
+            <p>Camiseta Mike do encontro</p>
+            <h1>R$ 79,90</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/mikenatal.jpg" alt="Boneco Fanko Mike Natal">
+            <p>Fanko Mike Natal</p>
+            <h1>R$ 89,90</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/filme.jpg" alt="Filme nivel de ameaça meia noite">
+            <p>DVD Nível de ameaça meia noite</p>
+            <h1>R$ 189,90</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/melhor-chefe.jpg" alt="Caneca melhor chefe do mundo">
+            <p>Caneca melhor chefe do mundo</p>
+            <h1>R$ 50,00</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        <div class="card">
+            <img src="./assets/imgs/fancomagico.webp" alt="Boneco fanko Mike magico">
+            <p>Boneco fanko Mike magico</p>
+            <h1>R$ 89,90</h1>
+            <button class="cardbutton"  type="submit">Adicionar</button>
+        </div>
+        
+    </section>
+
+    <!--Primeiro rodapé-->
+    <section id="patrocinio">
+        <div id="divpatrocinio" >
+        &copy;Site construido apenas para se ter uma ideia
+        <h2>Fale conosco</h2>
+
+        <div id="divnav">
+            <input id="busca" type="text" name="Buscar" value="Mensagem">
+            <button id="btnlupa"><img  src="./assets/imgs/iconemsg.png" alt="lupa de pesquisa"></button>
+        </div>
+        </div>
+        <div id="imgpatro">
+            <h2>Conheça nossos patrocinadores</h2>
+            <img src="./assets/imgs/schurutefarms.jpg" alt="">
+            <img src="./assets/imgs/bobvance.jpg" alt="">
+        </div>
+    </section>
+    <div>
+
+    <footer id="footer">
+
+        <div class="divfooter">
+            <h2>INSTITUCIONAL</h2>
+            <a href="">Sobre nós</a>
+            <a href="">Politicas de envio</a>
+            <a href="">Notícias</a>
+            <a href="">Trocas e devoluções</a>
+            <a href="">Termos de serviço</a>
+            <a href="">Política de privacidade</a>
+            <a href="">Promoções Dunder Mifflin</a>
+            <a href="">Fale Conosco</a>
+        </div>
+        <div class="divfooter">
+            <h2>PAGAMENTO</h2>
+            <p>Pagamento à prazo</p>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+
+        </div>
+        <div class="divfooter">
+
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/J09x9VaCuRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+        </div>
+    </footer>
+
+
+    <script src="./assets/script.js"></script>
+    
+</body>
+</html>
